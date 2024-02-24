@@ -1,0 +1,98 @@
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+  top: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.logo {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+}
+
+.logo img {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px;
+}
+
+
+.search-bar {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search-bar button img {
+  top:50px;
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('/image/web.png'); /* Adjust the path to your image */
+  background-size: cover; /* Ensure the background image covers the entire body */
+  color: #fff; /* Text color on top of the background image */
+}
+
+.background {
+  padding: 10px;
+}
+
+
+
+

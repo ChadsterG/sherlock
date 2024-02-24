@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECHQHUB</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="image/bck.jpg" alt="Your Logo">
+    </div>
+
+  <h1>TECHQHUB</h1>
+
+    <nav>
+      <ul>
+      <li> <a href="home3.html">Home </a></li>
+      <li> <a href="about.html">About  </li>
+      <li> <a href="contact.html">Contact </li>
+      <li> <a href="service.html">Services </li> 
+      <li> <a href="shop.html">Shop </li>   
+      <li id="login-button"><a href="login.html">Login</a></li>   
+    </ul>
+  </nav>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button type="submit"><img src="image/icons8-search-48.png" alt="Search"></button>
+    </div>
+
+  </header>
+
+<script>
+  
+function showLoginSignUpPopup() {
+  const choice = window.prompt('Please choose an option:\n1. Login\n2. Sign Up');
+
+  if (choice === '1') {
+    alert('You have chosen to log in.');
+  } else if (choice === '2') {
+    alert('You have chosen to sign up.');
+  } else {
+    alert('Invalid option, please try again.');
+  }
+}
+
+// Call the function to show the popup
+showLoginSignUpPopup();
+
+
+
+  document.getElementById('open-popup-btn').addEventListener('click', () => {
+    document.getElementById('popup').classList.remove('hidden');
+  });
+  
+  document.getElementById('close-popup-btn').addEventListener('click', () => {
+    document.getElementById('popup').classList.add('hidden');
+  });
+  
+  document.querySelectorAll('.option-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const option = btn.dataset.option;
+  
+      if (option === 'login') {
+        alert('You have chosen to log in.');
+      } else if (option === 'signup') {
+        alert('You have chosen to sign up')
+      </script>
+      
+  <section class="background">
+  </section>
+ 
+
+</body>
+</html>

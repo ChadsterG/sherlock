@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.service-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.service-option {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service-option h2 {
+    margin-top: 0;
+}
+
+.service-option p {
+    margin-top: 10px;
+}
+
+.service-option ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-option ul li {
+    padding: 5px 0;
+}
+
+.service-option button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service-option button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    margin-right: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    margin-right: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

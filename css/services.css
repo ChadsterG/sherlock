@@ -1,0 +1,45 @@
+/* Style for demonstration purposes only. Customize as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .service {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .service h2 {
+    margin-top: 0;
+  }
+  .service p {
+    margin-bottom: 0;
+  }
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    margin-right: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
